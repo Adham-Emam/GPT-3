@@ -1,0 +1,26 @@
+.gpt3__feature {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.gpt3__feature h3 {
+  color: white;
+  min-width: 158px;
+  font-size: 20px;
+  font-weight: 800;
+  position: relative;
+  flex: 1;
+}
+.gpt3__feature h3::before {
+  content: "";
+  background-image: var(--gradient-text);
+  width: 50px;
+  height: 4px;
+  position: absolute;
+  top: -20px;
+  left: 0;
+}
+.gpt3__feature p {
+  color: var(--color-text);
+  flex: 4;
+  line-height: 27px;
+}
