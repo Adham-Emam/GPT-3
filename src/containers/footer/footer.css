@@ -1,0 +1,76 @@
+.gpt3__footer {
+  background-color: var(--color-footer);
+}
+
+.gpt3__footer-heading {
+  text-align: center;
+}
+.gpt3__footer-heading h2 {
+  max-width: 821px;
+  font-weight: bold;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  margin: 3rem auto 5rem;
+}
+.gpt3__footer-heading a {
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--color-subtext);
+  border: 1px solid var(--color-subtext);
+  padding: 0.8rem 1rem;
+}
+.gpt3__footer-container {
+  color: #ffffff;
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+.gpt3__footer-container__head p {
+  margin-top: 1rem;
+  max-width: 168px;
+  font-size: 12px;
+  line-height: 14px;
+}
+.gpt3__footer-container ul h4 {
+  font-size: 14px;
+  line-height: 16px;
+}
+.gpt3__footer-container ul li {
+  margin: 2rem 0;
+  font-size: 12px;
+  line-height: 14px;
+}
+.gpt3__footer-copyright {
+  margin-top: 4rem;
+  text-align: center;
+}
+.gpt3__footer-copyright p {
+  font-size: 12px;
+  line-height: 14px;
+  font-feature-settings: "liga" off;
+  color: #ffffff;
+}
+.gpt3__footer-copyright p span {
+  font-weight: bold;
+}
+@media (max-width: 850px) {
+  .gpt3__footer-container {
+    flex-direction: column;
+  }
+  .gpt3__footer-container__head {
+    margin-bottom: 2rem;
+  }
+  .gpt3__footer-container ul {
+    margin: 1rem 0;
+  }
+}
+@media (max-width: 550px) {
+  .gpt3__footer-heading h2 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .gpt3__footer-heading a {
+    font-size: 14px;
+  }
+}
